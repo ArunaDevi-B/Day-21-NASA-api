@@ -1,0 +1,33 @@
+.color{
+    background-color: rgb(128, 124, 124);
+    /* color: black; */
+}
+body{
+    background-color:  black ;
+}
+
+.image{
+    width: 90%;
+    height: 400px;
+    margin: 10px 0px 10px 28px;
+}
+
+.explanation{
+    position: absolute;
+    left: 0;
+    bottom: 175px;
+    opacity: 0;
+}
+.exp:hover .explanation{
+    opacity: 1;
+    background-color: black ;
+    color: white;
+    transition: opacity 0.9s ease-in-out;
+}
+.exp{
+    background-image: linear-gradient(#e9e9e7,#7c7676 );
+}
+.test{
+    padding: 5px;
+    margin: 5px;
+}
